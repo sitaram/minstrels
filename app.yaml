@@ -4,5 +4,9 @@ runtime: python
 api_version: 1
 
 handlers:
+
+- url: /xxx
+  static_dir: ./
+
 - url: /.*
   script: minstrels.py
